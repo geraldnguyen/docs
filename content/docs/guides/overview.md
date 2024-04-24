@@ -58,11 +58,11 @@ performed by the step. So step definitions hard-wire the specification to the
 implementation.
 
 ```
-┌────────────┐                 ┌──────────────┐                 ┌───────────┐
-│   Steps    │                 │     Step     │                 │           │
-│ in Gherkin ├──matched with──>│ Definitions  ├───manipulates──>│  System   │
-│            │                 │              │                 │           │
-└────────────┘                 └──────────────┘                 └───────────┘
+┌──────────────┐                 ┌────────────────┐                 ┌─────────────┐
+│    Steps     │                 │      Step      │                 │             │
+│  in Gherkin  ├──matched with──>│  Definitions   ├───manipulates──>│   System    │
+│              │                 │                │                 │             │
+└──────────────┘                 └────────────────┘                 └─────────────┘
 ```
 
 Step definitions can be written in many programming languages. Here is an example
